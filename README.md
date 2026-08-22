@@ -99,7 +99,7 @@ person. So I built a simple website (a dashboard) where anyone can:
 - See a ready-made action list, sorted by dollar impact
 
 **File:** `app/dashboard.py`
-**Live link:** *(add your Streamlit Cloud URL here)*
+**Live link:** *(https://fsrt4qxwwq6dlt3pnwjsyr.streamlit.app/)*
 
 ### Stage 6 — Explain It To Non-Technical People
 Finally, I put together a short slide deck for the Head of Operations
