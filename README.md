@@ -185,5 +185,3 @@ matplotlib (for charts), Streamlit (for the dashboard), Git/GitHub
 
 ---
 
-*Built by Shreyas Baravkar for the Zidio Development internship —
-Project FORESIGHT, Data Science & Analytics track.*
