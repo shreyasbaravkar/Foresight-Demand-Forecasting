@@ -126,7 +126,10 @@ person. So I built a simple website (a dashboard) where anyone can:
 
 | Filters & KPIs | Risk chart | Action list |
 | :---: | :---: | :---: |
-| ![Filters and KPIs](docs/screenshots/07_dashboard_filters.png) | ![Risk chart](docs/screenshots/08_dashboard_risk_chart.png) | ![Action list](docs/screenshots/09_dashboard_action_list.png) |
+| ![Filters and KPIs](<img width="295" height="637" alt="image" src="https://github.com/user-attachments/assets/3dd2b54f-36d3-44eb-959a-0ed7e4bdc100" />
+) | ![Risk chart](<img width="1566" height="572" alt="image" src="https://github.com/user-attachments/assets/5583df9c-51bf-4f98-bbd8-82a28d972287" />
+) | ![Action list](<img width="1597" height="567" alt="image" src="https://github.com/user-attachments/assets/bc13f869-4989-4fcb-b1c8-38109b61fa19" />
+) |
 
 ### Stage 6 — Explain It To Non-Technical People
 
