@@ -38,16 +38,12 @@ The raw sales/product/stock data was messy (missing values, duplicate
 rows, inconsistent spelling). A script fixes all of that automatically,
 so the data is trustworthy before anything else happens.
 
-**File:** `src/pipeline.py`
-
 ### Stage 2 — Understand the Data (EDA)
 
 Before building anything fancy, I looked at the cleaned data to find real
 patterns: which products sell the most, which barely sell at all, whether
 seasons affect demand, and whether promotions actually help. These
 findings are written up in plain language.
-
-**Files:** `notebook/01_eda.ipynb`, `reports/eda_insight_memo.md`
 
 **What I found:**
 
@@ -57,10 +53,6 @@ number barely sell at all (dead stock).
 seasonal, not flat.
 - Promotions increase sales by about 50% on average — a real, useful
 signal, not noise.
-
-| Top vs. bottom sellers | Seasonality | Promotion effect |
-| :---: | :---: | :---: |
-| ![Product sales distribution](docs/screenshots/02_eda_sales_distribution.png) | ![Seasonality](docs/screenshots/03_eda_seasonality.png) | ![Promo lift](docs/screenshots/04_eda_promo_lift.png) |
 
 ### Stage 3 — Predict Future Demand (Forecasting)
 
@@ -81,10 +73,6 @@ model beat that simple guess did I trust it.
 
 The model wins, but the improvement is modest and I report that honestly
 rather than exaggerating it.
-
-![Forecast vs actual](docs/screenshots/05_forecast_vs_actual.png)
-
-**File:** `notebook/02_forecast.ipynb`
 
 ### Stage 4 — Turn Predictions Into Action (Risk Scoring)
 
@@ -108,10 +96,6 @@ simple categories:
 reordering (about **$1.74M in sales at risk** if ignored), and 23 are
 overstocked (about **$539K locked up in unsold stock**).
 
-![Risk quadrant](docs/screenshots/06_risk_quadrant.png)
-
-**File:** `notebook/03_risk_scoring.ipynb`
-
 ### Stage 5 — Make It Usable (Dashboard)
 
 All of the above lives in code and notebooks — useless to a non-technical
@@ -121,24 +105,13 @@ person. So I built a simple website (a dashboard) where anyone can:
 - See a chart of which products are risky
 - See a ready-made action list, sorted by dollar impact
 
-**File:** `app/dashboard.py`
 **Live link:** https://fsrt4qxwwq6dlt3pnwjsyr.streamlit.app/
-
-| Filters & KPIs | Risk chart | Action list |
-| :---: | :---: | :---: |
-| ![Filters and KPIs](<img width="295" height="637" alt="image" src="https://github.com/user-attachments/assets/3dd2b54f-36d3-44eb-959a-0ed7e4bdc100" />)
-| ![Risk chart](<img width="1566" height="572" alt="image" src="https://github.com/user-attachments/assets/5583df9c-51bf-4f98-bbd8-82a28d972287" />)
-| ![Action list](<img width="1597" height="567" alt="image" src="https://github.com/user-attachments/assets/bc13f869-4989-4fcb-b1c8-38109b61fa19" />) |
 
 ### Stage 6 — Explain It To Non-Technical People
 
 Finally, I put together a short slide deck for the Head of Operations
 and Finance — leading with the dollar impact, explaining what the system
 does, and being upfront about what it can't do yet.
-
-**File:** `FORESIGHT_Executive_Readout.pptx`
-
-![Executive readout slide](docs/screenshots/10_executive_readout.png)
 
 ---
 
