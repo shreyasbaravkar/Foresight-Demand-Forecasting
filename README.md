@@ -10,7 +10,7 @@ out slow stock)
 
 **🔗 Live dashboard:** https://fsrt4qxwwq6dlt3pnwjsyr.streamlit.app/
 
-![Dashboard overview](<img width="1915" height="870" alt="image" src="https://github.com/user-attachments/assets/c3996bcd-7171-49ed-99b0-2b2b4bf9ca6f" />
+(<img width="1915" height="870" alt="image" src="https://github.com/user-attachments/assets/c3996bcd-7171-49ed-99b0-2b2b4bf9ca6f" />
 )
 
 ---
